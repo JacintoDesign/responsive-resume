@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
+
+.resume-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  z-index: 2000;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+section {
+  color: black;
+  display: block;
+  margin-left: 20%; 
+  min-height: 100vh;
+}
+.title {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+} 
+.section-title {
+  font-size: 4rem;
+}
+.item-title {
+  font-size: 1.8rem;
+}
+.item-subtitle {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #868e96;
+  margin-top: -5px;
+}
+.sub-title {
+  line-height: 2rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin: 0;
+  color: #868e96;
+}
+.sub-title a {
+  color: #D30000;
+}
+.main {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5rem;
+  color: #868e96;
+}
+ul {
+  list-style: none;
+}
+.red {
+  color: #D30000;
+}
+.dark-red {
+  color: #990000;
+}
+.align {
+  text-align: right !important;
+}
+.content-padding {
+  position: relative;
+  padding: 0 5vw 0 1vw;
+}
+
+/* Navigation -------------------------------------------------------- */
+
+.nav {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  background: #000;
+  width: 18%;
+  height: 100%;
+}
+.nav a {
+  display: block;
+  padding: 10px;
+  margin-right: 40px;
+  color: #777;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.nav a:hover {
+  color: rgb(228, 228, 228);
+}
+
+.nav a:active, .nav a:focus-within {
+  color: #fff;
+}
+
+.rounded-img {
+  border-radius: 50%;
+  max-width: 10rem;
+  max-height: 10rem;
+  border: .5rem solid rgba(255,255,255,.2);
+}
+.text-logo {
+  display: none;
+}
+.menu-bars .fa {
+  display: none;
+}
+/* About ------------------------------------------------------------------------------------- */
+.about-content {
+  top: 25.5vh;
+}
+.main-title {
+  line-height: 6rem;
+  font-size: 7rem;
+  font-weight: 700;
+  margin: 0;
+}
+.social-icons {
+  display: flex;
+  margin-top: 3vh;
+  position: absolute;
+  left: -40px;
+}
+.social-icons .icons {
+  position: relative;
+  display: block;
+  flex-direction: row;
+  margin-left: 15px;
+}
+.circle {
+  font-size: 3.5rem;
+}
+.icon {
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* Experience ------------------------------------------------------ */
+.experience-content {
+  top: 5vh;
+}
+.item-wrapper {
+  display: flex;
+  margin-bottom: 7vh;
+}
+.item {
+  width: 70%;
+  display: block;
+}
+.item-right {
+  width: 30%;
+  display: block;
+}
+.item-date {
+  margin-top: 8px;
+}
+/* Education -------------------------------------------------------- */
+.education-content {
+  top: 25.5vh;
+}
+/* Skills ----------------------------------------------------------- */
+.skills-content {
+  top: 25.5vh;
+}
+.skill-icons {
+  display: flex;
+  margin-top: 5vh;
+  margin-bottom: 8vh;
+}
+.icons {
+  position: relative;
+  display: block;
+  flex-direction: row;
+  margin-left: 75px;
+}
+.no-margin-left {
+  margin-left: -1vw;
+}
+.skill-icon {
+  font-size: 3.5rem;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+#diamond {
+  font-size: 3rem;
+}
+/* Interests -------------------------------------------------------- */
+.interests-content {
+  top: 25.5vh;
+}
+/* Awards ----------------------------------------------------------- */
+.awards-content {
+  top: 25.5vh;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+}
+.list-item {
+  margin-left: 10px;
+}
+.trophy {
+  color: #868e96;
+}
+.indent {
+  display: inline-block;
+  margin: 0 0 0 10px;
+}
+
+/* Responsive Design Media Queries ---------------------------------- */
+@media screen and (min-width: 800px) and (min-height: 945px) {
+  .about-content { top: 32vh; }
+  .education-content { top: 32vh; }
+  .skills-content { top: 32vh; }
+  .interests-content { top: 32vh; }
+  .awards-content { top: 32vh; }
+}
+@media screen and (min-width: 800px) and (min-height: 901px) and (max-height: 944px) {
+  .about-content { top: 31vh; }
+  .education-content { top: 31vh; }
+  .skills-content { top: 31vh; }
+  .interests-content { top: 31vh; }
+  .awards-content { top: 31vh; }
+}
+@media screen and (min-width: 800px) and (min-height: 780px) and (max-height: 900px) {
+  .about-content { top: 28vh; }
+  .education-content { top: 28vh; }
+  .skills-content { top: 28vh; }
+  .interests-content { top: 28vh; }
+  .awards-content { top: 28vh; }
+}
+@media screen and (max-width: 1080px) {
+  section {
+    margin-left: 0;
+  }
+  .content-padding {
+    padding: 0 1rem;
+  }
+  /* Navigation --------------------------------------------------------- */
+  .navbar-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    z-index: 100;
+  }
+  .menu-bars .fa {
+    display: initial;
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  .nav {
+    margin-top: 50px;
+    width: 100%;
+    height: 210px;
+    opacity: .95;
+    flex-direction: column;
+    z-index: 20;
+    top: -500px;
+    transition: 0.75s ease;
+  }
+  .nav-expand {
+    top: 0;
+    transition: 0.3s ease;
+  }
+  .nav ul {
+    margin-left: -40px;
+  }
+  .nav a {
+    padding: 5px;
+    margin-right: 5px;
+  }
+  .logo {
+    display: none;
+  }
+  .rounded-img {
+    display: none;
+  }
+  .text-logo {
+    color: white;
+    display: inherit;
+    position: absolute;
+    top: 3px;
+    left: 33%;
+    z-index: 70;
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+  /* About ---------------------------------------------------- */
+  .social-icons {
+    left: -40px;
+  }
+  .social-icons .icons {
+    margin-left: 15px;
+  }
+  .circle {
+    font-size: 3rem;
+  }
+  .icon {
+    font-size: 1.65rem;
+  }
+  /* Skills -------------------------------------------------- */
+  .skill-icons {
+    margin-left: -77px;
+  }
+  .icons {
+    margin-left: 60px;
+  }
+  .skill-icon {
+    font-size: 3rem;
+  }
+  #diamond {
+    font-size: 2.5rem;
+  }
+}
+/* iPad */
+@media screen and (min-width: 650px) and (max-width: 768px) {
+  .text-logo {
+    left: 41%;
+  }
+}
+/* Large Mobile */
+@media screen and (max-width: 600px) {
+  .align {
+    text-align: left !important;
+  }
+  /* Experience ---------------------------------------------- */
+  .item-wrapper {
+    display: block;
+    margin-bottom: 5vh;
+  }
+  .item {
+    width: 100%;
+  }
+  .item-right {
+    width: 100%;
+  }
+  /* Awards ------------------------------------------------- */
+  .line-height {
+    line-height: 4rem;
+    margin-bottom: 1vh;
+  }
+}
+/* iPhone X */
+@media screen and (max-width: 375px) and (min-height: 700px) {
+  .small-text {
+    font-size: .9rem;
+  }
+  .social-icons .icons {
+    margin-left: 10px;
+  }
+}
+/* iPhone 6/7/8 */
+@media screen and (max-width: 375px) and (max-height: 699px) {
+  .about-content { top: 10vh; }
+  .education-content { top: 10vh; }
+  .skills-content { top: 10vh; }
+  .interests-content { top: 10vh; }
+  .awards-content { top: 10vh; }
+
+  .small-text {
+    font-size: .9rem;
+  }
+  .social-icons .icons {
+    margin-left: 10px;
+  }
+}
