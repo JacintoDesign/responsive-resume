@@ -251,11 +251,11 @@ ul {
   }
   .menu-bars .fa {
     display: initial;
-    font-size: 35px;
+    font-size: 30px;
     color: white;
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 10.5px;
+    left: 12px;
   }
   .nav {
     margin-top: 50px;
@@ -288,7 +288,7 @@ ul {
     color: white;
     display: inherit;
     position: absolute;
-    top: 3px;
+    top: 1.5px;
     left: 33%;
     z-index: 70;
     font-size: 30px;
