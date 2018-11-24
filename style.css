@@ -41,7 +41,7 @@ section {
 .item-subtitle {
   font-size: 1.4rem;
   font-weight: 500;
-  color: #868e96;
+  color: #5d6369;
   margin-top: -5px;
 }
 .sub-title {
@@ -49,7 +49,7 @@ section {
   font-weight: 500;
   font-size: 1.5rem;
   margin: 0;
-  color: #868e96;
+  color: #5d6369;
 }
 .sub-title a {
   color: #D30000;
@@ -57,7 +57,7 @@ section {
 .main {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.5rem;
-  color: #868e96;
+  color: #5d6369;
 }
 ul {
   list-style: none;
@@ -219,7 +219,7 @@ ul {
   margin-left: 10px;
 }
 .trophy {
-  color: #868e96;
+  color: #5d6369;
 }
 .indent {
   display: inline-block;
