@@ -288,7 +288,7 @@ ul {
     color: white;
     display: inherit;
     position: absolute;
-    top: 2px;
+    top: 1.75px;
     left: 33%;
     z-index: 70;
     font-size: 30px;
