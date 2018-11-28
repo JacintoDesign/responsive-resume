@@ -13,8 +13,6 @@ ul {
   list-style: none;
 }
 section {
-  color: black;
-  display: block;
   margin-left: 20%; 
   min-height: 100vh;
 }
@@ -43,8 +41,8 @@ section {
 }
 .sub-title {
   line-height: 2rem;
-  font-weight: 500;
   font-size: 1.5rem;
+  font-weight: 500;
   color: #5d6369;
   margin: 0;
 }
@@ -121,13 +119,13 @@ section {
 }
 .social-icons {
   display: flex;
-  margin-top: 3vh;
   position: absolute;
+  margin-top: 3vh;
   left: -40px;
 }
 .social-icons .icons {
-  position: relative;
   display: block;
+  position: relative;
   flex-direction: row;
   margin-left: 15px;
 }
@@ -151,12 +149,12 @@ section {
   margin-bottom: 7vh;
 }
 .item {
-  width: 70%;
   display: block;
+  width: 70%;
 }
 .item-right {
-  width: 30%;
   display: block;
+  width: 30%;
 }
 .item-date {
   margin-top: 8px;
@@ -177,8 +175,8 @@ section {
   margin-bottom: 8vh;
 }
 .icons {
-  position: relative;
   display: block;
+  position: relative;
   flex-direction: row;
   margin-left: 75px;
 }
