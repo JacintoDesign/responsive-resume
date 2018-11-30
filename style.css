@@ -3,7 +3,6 @@
 
 html, body {
   margin: 0;
-  padding: 0;
   scroll-behavior: smooth;
 }
 a {
@@ -65,8 +64,6 @@ section {
 
 /* Navigation -------------------------------------------------------- */
 .nav {
-  margin: 0;
-  padding: 0;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -74,7 +71,7 @@ section {
   position: fixed;
   background: #000;
   width: 18%;
-  height: 100%;
+  height: 100%; 
 }
 .nav a {
   display: block;
