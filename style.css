@@ -92,8 +92,8 @@ section {
 
 .rounded-img {
   border-radius: 50%;
-  max-width: 10rem;
-  max-height: 10rem;
+  width: 10rem;
+  height: 10rem;
   border: .5rem solid rgba(255,255,255,.2);
 }
 .text-logo {
