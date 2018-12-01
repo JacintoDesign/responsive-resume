@@ -15,6 +15,10 @@ section {
   margin-left: 20%; 
   min-height: 100vh;
 }
+.content-padding {
+  position: relative;
+  padding: 0 5vw 0 1vw;
+}
 .main {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.5rem;
@@ -56,10 +60,6 @@ section {
 }
 .align-right {
   text-align: right !important;
-}
-.content-padding {
-  position: relative;
-  padding: 0 5vw 0 1vw;
 }
 
 /* Navigation ---------------------------------------------------------- */
