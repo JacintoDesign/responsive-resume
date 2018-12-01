@@ -49,14 +49,14 @@ section {
   color: #5d6369;
   margin: 0;
 }
-.sub-title a {
-  color: #D30000;
-}
 .red {
   color: #D30000;
 }
 .dark-red {
   color: #990000;
+}
+.grey {
+  color: #5d6369;
 }
 .align-right {
   text-align: right !important;
@@ -193,9 +193,6 @@ section {
 }
 .list-item {
   margin-left: 10px;
-}
-.trophy {
-  color: #5d6369;
 }
 .indent {
   display: inline-block;
