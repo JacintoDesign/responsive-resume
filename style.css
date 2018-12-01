@@ -11,6 +11,7 @@ ul {
   list-style: none;
 }
 
+/* Section */
 section {
   margin-left: 20%; 
   min-height: 100vh;
@@ -20,6 +21,7 @@ section {
   padding: 0 5vw 0 1vw;
 }
 
+/* Font Properties */
 .main {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.5rem;
@@ -51,6 +53,7 @@ section {
   margin: 0;
 }
 
+/* Item Properties */
 .item-wrapper {
   display: flex;
   margin-bottom: 7vh;
@@ -70,6 +73,20 @@ section {
   text-align: right !important;
 }
 
+/* Bulleted List Properties */
+.list {
+  display: flex;
+  flex-direction: column;
+}
+.list-item {
+  margin-left: 10px;
+}
+.indent {
+  display: inline-block;
+  margin: 0 0 0 10px;
+}
+
+/* Colors */
 .red {
   color: #D30000;
 }
@@ -79,7 +96,6 @@ section {
 .grey {
   color: #5d6369;
 }
-
 
 /* Navigation ---------------------------------------------------------- */
 .nav {
@@ -191,17 +207,6 @@ section {
 /* Interests -------------------------------------------------------- */
 
 /* Awards ----------------------------------------------------------- */
-.list {
-  display: flex;
-  flex-direction: column;
-}
-.list-item {
-  margin-left: 10px;
-}
-.indent {
-  display: inline-block;
-  margin: 0 0 0 10px;
-}
 
 /* Responsive Design Media Queries ---------------------------------- */
 @media screen and (min-width: 800px) and (min-height: 945px) {
