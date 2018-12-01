@@ -11,6 +11,7 @@ a {
 ul {
   list-style: none;
 }
+
 section {
   margin-left: 20%; 
   min-height: 100vh;
@@ -19,6 +20,7 @@ section {
   position: relative;
   padding: 0 5vw 0 1vw;
 }
+
 .main {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.5rem;
@@ -49,6 +51,26 @@ section {
   color: #5d6369;
   margin: 0;
 }
+
+.item-wrapper {
+  display: flex;
+  margin-bottom: 7vh;
+}
+.item {
+  display: block;
+  width: 70%;
+}
+.item-right {
+  display: block;
+  width: 30%;
+}
+.item-date {
+  margin-top: 8px;
+}
+.align-right {
+  text-align: right !important;
+}
+
 .red {
   color: #D30000;
 }
@@ -58,9 +80,7 @@ section {
 .grey {
   color: #5d6369;
 }
-.align-right {
-  text-align: right !important;
-}
+
 
 /* Navigation ---------------------------------------------------------- */
 .nav {
@@ -139,21 +159,6 @@ section {
 /* Experience ------------------------------------------------------ */
 .experience-content {
   top: 5vh;
-}
-.item-wrapper {
-  display: flex;
-  margin-bottom: 7vh;
-}
-.item {
-  display: block;
-  width: 70%;
-}
-.item-right {
-  display: block;
-  width: 30%;
-}
-.item-date {
-  margin-top: 8px;
 }
 
 /* Education -------------------------------------------------------- */
