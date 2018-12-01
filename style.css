@@ -310,6 +310,5 @@ section {
 
 /* iPhone 6/7/8 ***********************************************/
 @media screen and (max-width: 400px) and (max-height: 699px) {
-  .about-content { top: 10vh; }
   .content-top { top: 10vh; }
 }
