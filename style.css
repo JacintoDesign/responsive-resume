@@ -62,7 +62,7 @@ section {
   padding: 0 5vw 0 1vw;
 }
 
-/* Navigation -------------------------------------------------------- */
+/* Navigation ---------------------------------------------------------- */
 .nav {
   text-align: center;
   display: flex;
@@ -95,8 +95,6 @@ section {
   width: 10rem;
   height: 10rem;
   border: .5rem solid rgba(255,255,255,.2);
-  position: relative;
-  left: -15px;
 }
 .text-logo {
   display: none;
@@ -105,7 +103,7 @@ section {
   display: none;
 }
 
-/* About ------------------------------------------------------------------------------------- */
+/* About ----------------------------------------------------------- */
 .about-content {
   top: 25.5vh;
 }
@@ -159,14 +157,8 @@ section {
 }
 
 /* Education -------------------------------------------------------- */
-.education-content {
-  top: 25.5vh;
-}
 
 /* Skills ----------------------------------------------------------- */
-.skills-content {
-  top: 25.5vh;
-}
 .skill-icons {
   display: flex;
   margin-top: 5vh;
@@ -193,14 +185,8 @@ section {
 }
 
 /* Interests -------------------------------------------------------- */
-.interests-content {
-  top: 25.5vh;
-}
 
 /* Awards ----------------------------------------------------------- */
-.awards-content {
-  top: 25.5vh;
-}
 .list {
   display: flex;
   flex-direction: column;
@@ -324,5 +310,6 @@ section {
 
 /* iPhone 6/7/8 ***********************************************/
 @media screen and (max-width: 400px) and (max-height: 699px) {
+  .about-content { top: 10vh; }
   .content-top { top: 10vh; }
 }
