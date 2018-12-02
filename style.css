@@ -69,8 +69,8 @@ section {
 .item-date {
   margin-top: 8px;
 }
-.align-right {
-  text-align: right !important;
+.align {
+  text-align: right;
 }
 
 /* Bulleted List Properties */
@@ -139,7 +139,7 @@ section {
 }
 
 /* About ----------------------------------------------------------- */
-.about-content {
+.about-content-top-top {
   top: 25.5vh;
 }
 .main-title {
@@ -172,7 +172,7 @@ section {
 }
 
 /* Experience ------------------------------------------------------ */
-.experience-content {
+.experience-content-top {
   top: 5vh;
 }
 
@@ -299,7 +299,7 @@ section {
 @media screen and (max-width: 600px) {
   .align { text-align: left !important; }
   /* About --------------------------------------------------- */
-  .about-content { top: 18vh;}
+  .about-content-top { top: 18vh;}
   /* Experience ---------------------------------------------- */
   .item-wrapper { display: block; margin-bottom: 5vh;}
   .item { width: 100%; }
