@@ -247,8 +247,8 @@ section {
     margin-top: 50px;
     width: 100%;
     height: 210px;
-    opacity: .95;
-    flex-direction: column;
+    /* opacity: .95;
+    flex-direction: column; */
     z-index: 20;
     top: -500px;
     transition: 0.75s ease;
