@@ -124,7 +124,7 @@ section {
   height: 10rem;
   border: .5rem solid rgba(255,255,255,.2);
 }
-.text-logo {
+.nav-title {
   display: none;
 }
 .menu-bars .fa {
@@ -264,13 +264,10 @@ section {
     padding: 5px;
     margin-right: 5px;
   }
-  .logo {
+  .display-picture {
     display: none;
   }
-  .rounded-img {
-    display: none;
-  }
-  .text-logo {
+  .nav-title {
     color: white;
     display: inherit;
     position: absolute;
@@ -296,7 +293,7 @@ section {
 
 /* iPad ********************************************************/
 @media screen and (min-width: 650px) and (max-width: 768px) {
-  .text-logo { left: 41%; }
+  .nav-title { left: 41%; }
 }
 
 /* Large Mobile ************************************************/
