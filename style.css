@@ -124,7 +124,7 @@ section {
   height: 10rem;
   border: .5rem solid rgba(255,255,255,.2);
 }
-.text-logo {
+.nav-title {
   display: none;
 }
 .menu-bars .fa {
@@ -247,7 +247,6 @@ section {
     margin-top: 50px;
     width: 100%;
     height: 210px;
-    opacity: .95;
     z-index: 20;
     top: -500px;
     transition: 0.75s ease;
@@ -263,10 +262,7 @@ section {
     padding: 5px;
     margin-right: 5px;
   }
-  .logo {
-    display: none;
-  }
-  .rounded-img {
+  .display-picture {
     display: none;
   }
   .nav-title {
