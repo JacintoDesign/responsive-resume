@@ -291,7 +291,6 @@ section {
 
 /* Large Mobile */
 @media screen and (max-width: 600px) {
-  .align { text-align: left !important; }
   /* About ------------------------------------------------ */
   .about-content-top { top: 18vh; }
   .social-icons { left: -40px; }
@@ -302,6 +301,7 @@ section {
   .item-wrapper { display: block; margin-bottom: 5vh;}
   .item { width: 100%; }
   .item-right { width: 100%; }
+  .align { text-align: left !important; }
   /* Skills -------------------------------------------- */
   .skill-icons { margin-left: -77px; }
   .icons { margin-left: 60px; }
