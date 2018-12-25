@@ -16,6 +16,9 @@ section {
   margin-left: 20%; 
   min-height: 100vh;
 }
+.content-top {
+  top: 28vh;
+}
 .content-padding {
   position: relative;
   padding: 0 5vw 0 1vw;
@@ -224,7 +227,6 @@ section {
 /* Navigation Menu Collapse */
 @media screen and (max-width: 1080px) {
   section { margin-left: 0; }
-  .content-top { top: 30vh; }
   .content-padding { padding: 0 1rem; }
   /* Navigation ----------------------------------- */
   .navbar-background {
