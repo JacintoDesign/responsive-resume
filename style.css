@@ -292,15 +292,18 @@ section {
 /* Large Mobile */
 @media screen and (max-width: 600px) {
   .nav-title { left: 32%; }
+  .content-top { top: 12vh; }
   /* About ------------------------------------------------ */
   .about-content-top { top: 18vh; }
+  .social-icons { left: -40px; }
+  .social-icons .icons { margin-left: 15px; }
   .circle { font-size: 3rem; }
   .social-icon { font-size: 1.75rem; }
   /* Experience ------------------------------------------- */
   .item-wrapper { display: block; }
   .item { width: 100%; }
   .item-right { width: 100%; }
-  .align { text-align: left; }
+  .align { text-align: left }
   /* Skills -------------------------------------------- */
   .skill-icons { margin-left: -77px; }
   .icons { margin-left: 60px; }
@@ -319,4 +322,20 @@ section {
 /* iPhone 6/7/8 */
 @media screen and (max-width: 400px) and (max-height: 699px) {
   .content-top { top: 10vh; }
+}
+
+/* iPhone 5 */
+@media screen and (max-width: 350px) and (max-height: 600px) {
+  .nav-title { left: 28%; }
+  .smaller-text { font-size: .8rem; }
+  /* About -------------------------*/
+  .about-content-top { top: 15vh; }
+  .main-title { font-size: 6rem; line-height: 5rem; }
+  .sub-title { font-size: 1.4rem; }
+  .circle { font-size: 2.5rem; }
+  .social-icon { font-size: 1.45rem; }
+  /* Skills -----------------------*/
+  .icons { margin-left: 50px; }
+  .skill-icon { font-size: 2.5rem; }
+  #diamond { font-size: 2rem; }    
 }
